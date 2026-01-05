@@ -25,9 +25,11 @@ O objetivo foi desenhar uma rede robusta, escalável e segura, garantindo baixa 
 
 ### Detalhe da Segmentação (VLANs)
 A rede foi segregada para garantir segurança e performance:
-* **VLAN 10:** Desenvolvimento (Prioridade de tráfego)
-* **VLAN 20:** Marketing
-* **VLAN 30:** Administrativo/Financeiro
+* **VLAN 10:** Servidores
+* **VLAN 20:** Desenvolvimento (Prioridade de tráfego)
+* **VLAN 30:** Coorporativo
+* **VLAN 40:** Segurança
+* **VLAN 50:** Wifi Visitantes
 * **VLAN 99:** Gestão
 
 ## 📂 Estrutura do Repositório
